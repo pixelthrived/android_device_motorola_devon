@@ -25,4 +25,18 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="devon_g-user 13 T2SNS33.73-22-3-14 d8b49-5dd2a release-keys" \
     BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-14/d8b49-5dd2a:user/release-keys \
-    DeviceProduct=devon_g
+    DeviceProduct=devon_g \
+    RisingChipset="Snapdragon® 680" \
+    RisingMaintainer="PixelThrived"
+
+# RisingOS specific variables
+RISING_MAINTAINER := PixelThrived
+TARGET_ENABLE_BLUR := false
+#PRODUCT_NO_CAMERA := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
+RISING_BATTERY := 5000mAh
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
