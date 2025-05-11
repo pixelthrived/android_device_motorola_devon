@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_devon.mk
+    $(LOCAL_DIR)/halcyon_devon.mk
