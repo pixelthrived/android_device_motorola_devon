@@ -13,6 +13,14 @@ $(call inherit-product, device/motorola/devon/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# AxionAOSP specific build flags
+AXION_CAMERA_REAR_INFO := 50,8,2
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER := PixelThrived
+AXION_PROCESSOR := Snapdragon_680
+TARGET_ENABLE_BLUR := false
+TARGET_INCLUDE_VIPERFX := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_devon
 PRODUCT_DEVICE := devon
